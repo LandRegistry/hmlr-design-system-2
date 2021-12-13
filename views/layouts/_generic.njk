@@ -37,9 +37,9 @@
 
 {% block main %}
 <div class="app-pane {% block appPaneClasses %}{% endblock %}" id="top">
-  {% include "_header.njk" %}
+  {% include "hmlr/_header.njk" %}
   {% include "_mobile-navigation.njk" %}
-  {% include "_hmlr-banner.njk" %}
+  {% include "hmlr/_banner.njk" %}
   {% include "_navigation.njk" %}
   {% block body %}
     {{ contents | safe }}
