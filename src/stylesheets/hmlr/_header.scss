@@ -1,6 +1,3 @@
 .hmlr-header {
-    @include govuk-responsive-padding(4, "top");
-    @include govuk-responsive-padding(4, "bottom");
-    background-color: $govuk-brand-colour;
-    border-bottom: none;
+    border-bottom-color: $govuk-brand-colour;
 }
