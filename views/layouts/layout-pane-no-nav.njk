@@ -51,8 +51,12 @@
         </ul>
       {% endif %}
 
-      <div class="app-prose-scope">
-        {{ contents | safe }}
+      <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+          <div class="govuk-body">
+            {{ contents | safe }}
+          </div>
+        </div>
       </div>
 
       {# No JS fallback to show overview #}
