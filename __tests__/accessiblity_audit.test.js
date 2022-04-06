@@ -3,7 +3,7 @@
 const { AxePuppeteer } = require('axe-puppeteer')
 
 const { setupPage } = require('../lib/jest-utilities.js')
-const configPaths = require('../config/paths.json')
+const configPaths = require('../lib/paths.js')
 const PORT = configPaths.testPort
 
 let page
@@ -37,21 +37,21 @@ describe('Accessibility Audit', () => {
     })
   })
 
-  describe('Component page - layout-pane.njk', () => {
-    it('validates', async () => {
-      await page.goto(baseUrl + '/components/radios/', { waitUntil: 'load' })
-      const violations = await audit(page)
-      expect(violations).toEqual([])
-    })
-  })
+  // describe('Component page - layout-pane.njk', () => {
+  //   it('validates', async () => {
+  //     await page.goto(baseUrl + '/components/radios/', { waitUntil: 'load' })
+  //     const violations = await audit(page)
+  //     expect(violations).toEqual([])
+  //   })
+  // })
 
-  describe('Patterns page - layout-pane.njk', () => {
-    it('validates', async () => {
-      await page.goto(baseUrl + '/patterns/gender-or-sex/', { waitUntil: 'load' })
-      const violations = await audit(page)
-      expect(violations).toEqual([])
-    })
-  })
+  // describe('Patterns page - layout-pane.njk', () => {
+  //   it('validates', async () => {
+  //     await page.goto(baseUrl + '/patterns/gender-or-sex/', { waitUntil: 'load' })
+  //     const violations = await audit(page)
+  //     expect(violations).toEqual([])
+  //   })
+  // })
 
   describe('Get in touch page - layout-single-page.njk', () => {
     it('validates', async () => {

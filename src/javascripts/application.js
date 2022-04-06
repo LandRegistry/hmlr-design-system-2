@@ -1,10 +1,10 @@
-import CookieBanner from './components/cookie-banner.js'
+// import CookieBanner from './components/cookie-banner.js'
 import BackToTop from './components/back-to-top.js'
 import common from 'govuk-frontend/govuk/common'
 import Example from './components/example.js'
 import AppTabs from './components/tabs.js'
 import Copy from './components/copy.js'
-import MobileNav from './components/mobile-navigation.js'
+import Navigation from './components/navigation.js'
 import Search from './components/search.js'
 import OptionsTable from './components/options-table.js'
 import { getConsentCookie, isValidConsentCookie } from './components/cookie-functions.js'
@@ -14,8 +14,8 @@ import CookiesPage from './components/cookies-page.js'
 var nodeListForEach = common.nodeListForEach
 
 // Initialise cookie banner
-var $cookieBanner = document.querySelector('[data-module="govuk-cookie-banner"]')
-new CookieBanner($cookieBanner).init()
+// var $cookieBanner = document.querySelector('[data-module="govuk-cookie-banner"]')
+// new CookieBanner($cookieBanner).init()
 
 // Initialise analytics if consent is given
 var userConsent = getConsentCookie()
@@ -45,7 +45,7 @@ nodeListForEach($codeBlocks, function ($codeBlock) {
 })
 
 // Initialise mobile navigation
-new MobileNav().init()
+new Navigation().init()
 
 // Initialise search
 var $searchContainer = document.querySelector('[data-module="app-search"]')
