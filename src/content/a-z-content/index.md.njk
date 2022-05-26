@@ -5,6 +5,9 @@ section: Content
 layout: layout-pane.njk
 show_page_nav: false
 ---
+
+{% from "govuk/components/accordion/macro.njk" import govukAccordion %}
+
 The HMLR style guide is a list of content styles and terms that are specific to HMLR. For example, names of caseworking systems, acronyms and what we call common tasks.
 
 {% from "govuk/components/accordion/macro.njk" import govukAccordion %}
@@ -78,7 +81,7 @@ The HMLR style guide is a list of content styles and terms that are specific to 
   content: {
     html: "<p class='govuk-body'><b>Forms</b><br>Lower case for standard forms ‘form AP1’ but a capital for types of restriction ‘Form A’.</p>
       <br>
-      <p class='govuk-body'><b>Fractions</b><br>Spell out common fractions for example ‘one-third’, ‘three-quarters’. Use numerals for complex fractions, fractions combined with whole numbers and decimal fractions.</p>
+      <p class='govuk-body'><strong>Fractions</strong><br>Spell out common fractions for example ‘one-third’, ‘three-quarters’. Use numerals for complex fractions, fractions combined with whole numbers and decimal fractions.</p>
       <br>
       <p class='govuk-body'><b>Freehold</b><br>One word, does not need capitalising except at the beginning of a sentence. Freehold continues for an indefinite time without payment of rent. It can be sold or given away and is the type of ownership that is nearest to owning land absolutely. Most houses are freehold, and most flats are leasehold.</p>
   "
