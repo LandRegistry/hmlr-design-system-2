@@ -23,12 +23,6 @@ You can use the HM Land Registry components in your prototypes. Using the latest
 1. In `server.js`, where we declare the variable `var appViews`, add `path.join(projectDir, '/node_modules/@hmlr/frontend/src'),` to the list of views, below the others like `path.join(projectDir, '/lib/'),`
 1. In `app/assets/sass/application.scss`, add `@import "node_modules/@hmlr/frontend/src/hmlr/all";` after the `@import ".tmp/sass/extensions";` line
 
-You are now free to import and use the HM Land Registry components in your prototype just as you can with the GovUK ones:
+You are now free to import and use the HM Land Registry components in your prototype just as you can with the GovUK ones.
 
-```
-{% from "hmlr/components/header/macro.njk" import hmlrHeader %}
-
-{{ hmlrHeader({
-	serviceName: "My new service"
-}) }}
-```
+Example code can be found in the [components](/components/) section.
