@@ -14,3 +14,21 @@ The GOV.UK guide explains how to create prototypes using the GOV.UK Design Syste
 To make prototypes use the link below to navigate to the GOV.UK setup guide.
 
 [GOV.UK Prototyping Setup Guide](https://design-system.service.gov.uk/get-started/prototyping/)
+
+## Using the HM Land Registry components
+
+You can use the HM Land Registry components in your prototypes. Using the latest prototype kit as a base, follow these instructions to set up the components:
+
+1. Run `npm install @hmlr/frontend` to install the HM Land Registry frontend styles and templates
+1. In `server.js`, where we declare the variable `var appViews`, add `path.join(projectDir, '/node_modules/@hmlr/frontend/src'),` to the list of views, below the others like `path.join(projectDir, '/lib/'),`
+1. In `app/assets/sass/application.scss`, add `@import "node_modules/@hmlr/frontend/src/hmlr/all";` after the `@import ".tmp/sass/extensions";` line
+
+You are now free to import and use the HM Land Registry components in your prototype just as you can with the GovUK ones:
+
+```
+{% from "hmlr/components/header/macro.njk" import hmlrHeader %}
+
+{{ hmlrHeader({
+	serviceName: "My new service"
+}) }}
+```
