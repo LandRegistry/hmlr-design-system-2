@@ -2,6 +2,7 @@
 title: Header
 description: HM Land Registry header component
 section: Components
+theme: Experimental
 layout: layout-pane.njk
 show_page_nav: false
 ---
@@ -11,3 +12,9 @@ show_page_nav: false
 The HM Land Registry header shows users that they are on HM Land Registry and which service they are using.
 
 {{ example({group: "components", item: "header", example: "default", id: "default-1", html: true, nunjucks: true, open: false}) }}
+
+### Header with service name
+
+Use the header with a service name if your service is more than 5 pages long - this can help users understand which service they are using.
+
+{{ example({group: "components", item: "header", example: "with-service-name", html: true, nunjucks: true, open: false}) }}
