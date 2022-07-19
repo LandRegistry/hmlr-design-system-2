@@ -8,13 +8,25 @@ show_page_nav: false
 ---
 
 {% from "_example.njk" import example %}
+{% from "govuk/components/warning-text/macro.njk" import govukWarningText %}
+
+{{ govukWarningText({
+  text: "This component is still experimental and is not ready for production",
+  iconFallbackText: "Warning"
+}) }}
 
 The HM Land Registry header shows users that they are on HM Land Registry and which service they are using.
 
 {{ example({group: "components", item: "header", example: "default", id: "default-1", html: true, nunjucks: true, open: false}) }}
+
+## How it works
 
 ### Header with service name
 
 Use the header with a service name if your service is more than 5 pages long - this can help users understand which service they are using.
 
 {{ example({group: "components", item: "header", example: "with-service-name", html: true, nunjucks: true, open: false}) }}
+
+### Options
+
+A full list of options for this component can be found on the [HM Land Registry frontend Storybook](https://hmlr-frontend-prealpha.herokuapp.com/?path=/story/experimental-header--standard).
