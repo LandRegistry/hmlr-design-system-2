@@ -28,7 +28,7 @@
     ]
   },
   "dependencies": {
-    "@hmlr/frontend": "^0.1.9",
+    "@hmlr/frontend": "^0.1.10",
     "acorn": "^6.4.1",
     "autoprefixer": "^9.5.1",
     "clipboard": "^2.0.4",
