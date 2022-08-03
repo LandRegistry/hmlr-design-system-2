@@ -7,17 +7,9 @@ show_page_nav: false
 
 ## Main colours
 
-If you are using GOV.UK Frontend or the GOV.UK Prototype Kit, use the [Sass
-variables](https://frontend.design-system.service.gov.uk/sass-api-reference/#colours) provided rather than copying the
-hexadecimal (hex) colour values. For example, use `$hmlr-brand-green` rather
-than `{{ colours.applied['Brand colour'][0]['colour'] | trim }}`.
-This means that your service will always use the most recent colour palette
-whenever you update.
+These colours are an addition to the [main GDS colours](https://design-system.service.gov.uk/styles/colour/#main-colours).
 
-Only use the variables in the context they're designed for. In all other cases,
-you should reference the [colour palette](https://design-system.service.gov.uk/styles/colour/#colour-palette) directly. For
-example, if you wanted to use red, you should
-use `govuk-colour("red")` rather than `$govuk-error-colour`.
+If you are using GOV.UK Frontend, the GOV.UK Prototype Kit or HMLR Frontend, use the [Sass variables](https://frontend.design-system.service.gov.uk/sass-api-reference/#colours) provided rather than copying the hexadecimal (hex) colour values. For example, use `$hmlr-brand-colour` rather than `{{ colours.applied['Brand colour'][0]['colour'] | trim }}`. This means that your service will always use the most recent colour palette whenever you update.
 
 <table class="govuk-body app-colour-list" summary="Table of main colours">
   <tbody>
