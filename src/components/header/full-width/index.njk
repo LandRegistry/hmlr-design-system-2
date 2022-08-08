@@ -1,11 +1,10 @@
 ---
-title: Header with service name
+title: Full width header
 layout: layout-example.njk
 ---
 {% from "hmlr/components/header/macro.njk" import hmlrHeader %}
 
 {{ hmlrHeader({
-  homepageUrl: "#",
   serviceName: "Service name",
-  serviceUrl: "#"
+  containerClasses: "govuk-header__container--full-width"
 }) }}
