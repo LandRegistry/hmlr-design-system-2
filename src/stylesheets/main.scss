@@ -1,7 +1,7 @@
 $govuk-new-link-styles: true;
 
 $govuk-brand-colour: #006637;
-$govuk-font-family: Arial, sans-serif;
+$govuk-font-family: arial, sans-serif;
 
 @import "govuk-frontend/govuk/all";
 
@@ -97,7 +97,6 @@ $app-code-color: #d13118;
     @include govuk-responsive-margin(6, "bottom");
   }
 
-
   // IE8 does not support the video element, so we hide the element entirely.
   @if $govuk-is-ie8 == true {
     .app-video {
@@ -118,7 +117,9 @@ $app-code-color: #d13118;
   // http://code.iamkate.com/html-and-css/fixing-browsers-broken-monospace-font-handling/
   pre,
   code {
+    // stylelint-disable font-family-no-duplicate-names
     font-family: monospace, monospace; // [1]
+    // stylelint-enable font-family-no-duplicate-names
     font-size: 1em; // [2]
   }
 }
@@ -178,7 +179,6 @@ $colour-list-breakpoint: 980px;
 @if $govuk-is-ie8 == true {
   $colour-list-breakpoint: $govuk-ie8-breakpoint;
 }
-
 
 .app-colour-list {
   width: 100%;
@@ -287,7 +287,6 @@ p code {
 }
 
 .app-prose-scope {
-
   h1 {
     @extend %govuk-heading-xl;
   }
