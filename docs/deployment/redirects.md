@@ -14,4 +14,4 @@ buildpack to redirects any requests to the service domain.
 
 This app was deployed manually using the CloudFoundry command line tools.
 
-[app]: https://github.com/LandRegistry/hmlr-design-system-2-redirect
+[app]: https://github.com/LandRegistry/hmlr-design-system-redirect

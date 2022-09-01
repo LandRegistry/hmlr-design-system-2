@@ -4,14 +4,14 @@
   "description": "HM Land Registry Design System",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/landregistry/hmlr-design-system-2.git"
+    "url": "git+https://github.com/landregistry/hmlr-design-system.git"
   },
   "author": "HM Land Registry Design System team",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/landregistry/hmlr-design-system-2/issues"
+    "url": "https://github.com/landregistry/hmlr-design-system/issues"
   },
-  "homepage": "https://github.com/landregistry/hmlr-design-system-2#readme",
+  "homepage": "https://github.com/landregistry/hmlr-design-system#readme",
   "scripts": {
     "preinstall": "node bin/check-nvmrc.js",
     "prestart": "node bin/check-nvmrc.js",

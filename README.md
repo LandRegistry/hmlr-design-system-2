@@ -13,7 +13,7 @@ If you're an external contributor make sure to [fork this project first](https:/
 
 ### Clone repository
 ```
-git clone git@github.com:LandRegistry/hmlr-design-system-2.git # or clone your own fork
+git clone git@github.com:LandRegistry/hmlr-design-system.git # or clone your own fork
 
 cd govuk-design-system
 ```
@@ -72,7 +72,7 @@ When changes are pushed to GitHub, [Github Actions][github-actions] will:
 If any of these fail, this will be reported in the GitHub status checks
 interface.
 
-[github-actions]: https://github.com/LandRegistry/hmlr-design-system-2/actions
+[github-actions]: https://github.com/LandRegistry/hmlr-design-system/actions
 
 ## Deployment
 
@@ -83,7 +83,7 @@ interface.
 
 GDS is an advocate of responsible vulnerability disclosure. If you’ve found a vulnerability, we would like to know so we can fix it.
 
-To learn how to report a security vulnerability, [see our security policy](https://github.com/LandRegistry/hmlr-design-system-2/security/policy).
+To learn how to report a security vulnerability, [see our security policy](https://github.com/LandRegistry/hmlr-design-system/security/policy).
 
 ## Contributing
 
