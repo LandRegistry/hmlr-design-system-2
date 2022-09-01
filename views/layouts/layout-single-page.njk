@@ -1,14 +1,12 @@
 {% extends "_generic.njk" %}
 
 {% block body %}
-<div class="app-pane__content">
   <main id="main-content" class="govuk-main-wrapper govuk-main-wrapper--l" role="main">
     <div class="app-width-container">
       {{ contents | safe }}
     </div>
   </main>
 
-  {% include "hmlr/_footer.njk" %}
-</div>
+  {% include "_footer.njk" %}
 
 {% endblock %}
