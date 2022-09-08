@@ -3,9 +3,13 @@ title: Search by title number
 description: A pattern for searching for a title deed by title the number
 section: Patterns
 layout: layout-pane.njk
-show_page_nav: false
 ---
+
+{% from "_example.njk" import example %}
+
 Use the ‘Search by title number’ pattern to help a user find information that we hold about a title.
+
+{{ example({group: "patterns", item: "search-by-title-number", example: "default", html: true, nunjucks: true, open: false}) }}
 
 ## When to use this pattern
 
@@ -31,6 +35,8 @@ Do not use this pattern unless you have evidence that your users:
 ## How to use with hint text
 If you need to include hint text, then we can let a user know where they can find a title number – to help them make an informed decision of whether this method is suitable for them to use.
 
+{{ example({group: "patterns", item: "search-by-title-number", example: "hint", html: true, nunjucks: true, open: false}) }}
+
 Do not include:
 
 * real title numbers in any hint text
@@ -44,6 +50,7 @@ This is because:
 Read more about hint text on the [GOV.UK design system](https://design-system.service.gov.uk/components/text-input#hint-text)
 
 ## How to write your error messages
+
 You must not use an error message that tells a user if the title number they have entered is a real title number or not.
 
 We can let a user know that we do not recognise what they have entered and prompt them to try again.
@@ -51,6 +58,8 @@ We can let a user know that we do not recognise what they have entered and promp
 For example:
 * ‘Enter a title number’
 * ‘We do not recognise that title number. Check title number and try again’.
+
+{{ example({group: "patterns", item: "search-by-title-number", example: "error", html: true, nunjucks: true, open: false}) }}
 
 Read more about error messages on the [GOV.UK design system](https://design-system.service.gov.uk/components/error-message/)
 
