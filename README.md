@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/LandRegistry/hmlr-frontend/staging/src/hmlr/assets/images/hmlr_icon.svg" alt="HM Land Registry logo" title="HM Land Registry" align="right" width="80" />
+
 # HM Land Registry Design System
 
 This repository contains the code for the GOV.UK Design System website. To find the code we provide for reuse by services, go to the [govuk-frontend repository](https://github.com/alphagov/govuk-frontend).
@@ -54,9 +56,9 @@ npm run lint
 
 [stylelint]: https://github.com/stylelint/stylelint
 
-## GOV.UK Frontend packages
+## Frontend packages
 
-Design System consumes the [GOV.UK Frontend](https://github.com/alphagov/govuk-frontend) package via [NPM](https://www.npmjs.com/).
+Design System consumes the [GOV.UK Frontend](https://github.com/alphagov/govuk-frontend) and the [HMLR Frontend](https://github.com/@hmlr/frontend) packages via [NPM](https://www.npmjs.com/).
 This is defined in the [package.json](package.json) file.
 
 --------------------
