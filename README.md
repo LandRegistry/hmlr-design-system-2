@@ -58,7 +58,7 @@ npm run lint
 
 ## Frontend packages
 
-Design System consumes the [GOV.UK Frontend](https://github.com/alphagov/govuk-frontend) and the [HMLR Frontend](https://github.com/@hmlr/frontend) packages via [NPM](https://www.npmjs.com/).
+Design System consumes the [GOV.UK Frontend](https://github.com/alphagov/govuk-frontend) and the [HMLR Frontend](https://github.com/LandRegistry/hmlr-frontend) packages via [NPM](https://www.npmjs.com/).
 This is defined in the [package.json](package.json) file.
 
 --------------------
