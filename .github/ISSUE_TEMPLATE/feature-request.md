@@ -12,7 +12,7 @@ assignees: ''
 
   Your issue might already exist. If so, add a comment to the existing issue instead of creating a new one. You can find existing issues here:
   - the community backlog: https://hmlr-design-system-staging.herokuapp.com/community/backlog/
-  - an existing Github issue: https://github.com/LandRegistry/hmlr-design-system-2/issues
+  - an existing Github issue: https://github.com/LandRegistry/hmlr-design-system/issues
 
   If you are proposing a new component or pattern, please follow the instructions here: https://hmlr-design-system-staging.herokuapp.com/community/propose-a-component-or-pattern/
 -->
