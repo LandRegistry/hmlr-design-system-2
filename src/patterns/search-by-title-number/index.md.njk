@@ -7,13 +7,15 @@ layout: layout-pane.njk
 
 {% from "_example.njk" import example %}
 
-Use the ‘Search by title number’ pattern to help a user find information that we hold about a title.
+Use the ‘Search by title number’ pattern to help a user find information that we hold about an individual property title.
 
 {{ example({group: "patterns", item: "search-by-title-number", example: "default", html: true, nunjucks: true, open: false}) }}
 
 ## When to use this pattern
 
 Use this pattern on public facing services.
+
+This guidance applies whether a user is signed into an account or not.
 
 There will be separate guidance for business customers.
 
@@ -40,12 +42,11 @@ If you need to include hint text, then we can let a user know where they can fin
 Do not include:
 
 * real title numbers in any hint text
-* the format of a title number as the hint – for example, 1 to 2 numbers followed by 2 to 6 letters
+* the format of a title number as the hint
 
 This is because:
 * the format could change
 * your example could become a title number in the future
-* users could guess them
 
 Read more about hint text on the [GOV.UK design system](https://design-system.service.gov.uk/components/text-input#hint-text)
 
@@ -94,11 +95,5 @@ We’d like to do more research with users of assistive technology including:
 * speech to text software
 
 ## Help improve this pattern
-
-To help make sure that this page is useful, relevant, and up to date, you can:
-
-take part in the 'Search by title number' discussion [where]… and share your research
-
-propose a change [link to where] – read more about how to propose changes in GitHub
 
 Contribute to the discussion about this pattern: https://github.com/LandRegistry/hmlr-design-system-2/issues
