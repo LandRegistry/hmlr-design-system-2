@@ -1,6 +1,6 @@
 const metalsmith = require('../lib/metalsmith') // configured static site generator
 
-var assets = require('metalsmith-assets');
+const assets = require('metalsmith-assets')
 
 // use metalsmith-assets to place 404 page in the root in order to work with http-server magic
 metalsmith.use(assets({
