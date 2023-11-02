@@ -20,6 +20,11 @@
     "includeInSearch": true
   },
   {
+    "label": "Guidance",
+    "url": "guidance",
+    "includeInSearch": true
+  },
+  {
     "label": "Content",
     "url": "content",
     "includeInSearch": true
