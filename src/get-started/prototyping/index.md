@@ -22,7 +22,7 @@ To make prototypes use the link below to navigate to the GOV.UK setup guide.
 Using the latest prototype kit as a base, install the HM Land Registry frontend styles and templates:
 
 ```sh
-npm install @hmlr/frontend
+npm install @hmlr/frontend@v1.1.0
 ```
 
 You can now import and use the HM Land Registry components in your prototype just as you can with the GOV.UK ones.
