@@ -1,1 +1,1 @@
-web: npm i http-server && http-server deploy/public
+web: bin/start-nginx-static
