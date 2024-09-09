@@ -1,0 +1,42 @@
+{% extends "layout-single-page.njk" %}
+
+{% set contents %}
+<div class="govuk-grid-row">
+
+  <div class="govuk-grid-column-one-quarter-from-desktop contents-list-container">
+            <nav data-module="ga4-link-tracker" aria-label="Contents" class="gem-c-contents-list" role="navigation" data-ga4-link-tracker-module-started="true">
+      <p class="govuk-body"> Contents</p>
+                <ul class="govuk-list">
+          <li>
+            <span aria-hidden="true"></span>
+            <a class="govuk-body gem-c-contents-list__link govuk-link govuk-link--no-underline" data-ga4-link="{&quot;event_name&quot;:&quot;select_content&quot;,&quot;section&quot;:&quot;Contents&quot;,&quot;type&quot;:&quot;contents list&quot;,&quot;index_total&quot;:5,&quot;index_link&quot;:1}" href="#accessibility-statement-for-website-name">Accessibility statement for the HM Land Registry Design System</a>
+          </li>
+          <li>
+            <span aria-hidden="true"></span>
+            <a class="govuk-body gem-c-contents-list__link govuk-link govuk-link--no-underline" data-ga4-link="{&quot;event_name&quot;:&quot;select_content&quot;,&quot;section&quot;:&quot;Contents&quot;,&quot;type&quot;:&quot;contents list&quot;,&quot;index_total&quot;:5,&quot;index_link&quot;:2}" href="#technical-information-about-this-websites-accessibility">Technical information about this website’s accessibility</a>
+          </li>
+          <li>
+            <span aria-hidden="true"></span>
+            <a class="govuk-body gem-c-contents-list__link govuk-link govuk-link--no-underline" data-ga4-link="{&quot;event_name&quot;:&quot;select_content&quot;,&quot;section&quot;:&quot;Contents&quot;,&quot;type&quot;:&quot;contents list&quot;,&quot;index_total&quot;:5,&quot;index_link&quot;:3}" href="#non-accessible-content">Non-accessible content</a>
+          </li>
+          <li>
+            <span aria-hidden="true"></span>
+            <a class="govuk-body gem-c-contents-list__link govuk-link govuk-link--no-underline" data-ga4-link="{&quot;event_name&quot;:&quot;select_content&quot;,&quot;section&quot;:&quot;Contents&quot;,&quot;type&quot;:&quot;contents list&quot;,&quot;index_total&quot;:5,&quot;index_link&quot;:4}" href="#what-were-doing-to-improve-accessibility">What we’re doing to improve accessibility</a>
+          </li>
+          <li>
+            <span aria-hidden="true"></span>
+            <a class="govuk-body gem-c-contents-list__link govuk-link govuk-link--no-underline" data-ga4-link="{&quot;event_name&quot;:&quot;select_content&quot;,&quot;section&quot;:&quot;Contents&quot;,&quot;type&quot;:&quot;contents list&quot;,&quot;index_total&quot;:5,&quot;index_link&quot;:5}" href="#preparation-of-this-accessibility-statement">Preparation of this accessibility statement</a>
+          </li>
+      </ul>
+  </nav>
+
+        </div>
+
+  <div class="govuk-grid-column-two-thirds">
+    <div class="app-prose-scope">
+      {{ contents | safe }}
+    </div>
+  </div>
+
+</div>
+      {% endset %}

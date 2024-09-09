@@ -1,12 +1,12 @@
 ---
 title: Accessibility statement
 description: accessibility in the HM Land Registry Design System
-layout: layout-single-page-prose.njk
+layout: layout-contents-left.njk
 ---
 
 # Accessibility statement for the HM Land Registry Design System
 
-This accessibility statement applies to the HM Land Registry Design System at https://hmlr-design-system.herokuapp.com/.
+This accessibility statement applies to the [HM Land Registry Design System](https://hmlr-design-system.herokuapp.com/).
 
 The website is run by the HM Land Registry. We want as many people as possible to be able to use this website. For example, that means you should be able to:
 
@@ -14,14 +14,19 @@ The website is run by the HM Land Registry. We want as many people as possible t
 - zoom in up to 400% without the text spilling off the screen
 - navigate most of the website using a keyboard or speech recognition software
 - listen to most of the website using a screen reader (including the most recent versions of JAWS, NVDA and VoiceOver)
+- access the website using a variety of devices, screen sizes and orientations
 
-We've also made the website text as simple as possible to understand.
+We've also made the website text as simple as possible to understand. We  only use a technical term if there are no alternative ways to describe something (without changing the meaning).
 
 [AbilityNet](https://mcmw.abilitynet.org.uk/) has advice on making your device easier to use if you have a disability.
 
 ### How accessible this website is
 
-We know some parts of this website are not fuully accessible:
+We know some parts of this website are not fully accessible:
+
+- with an increased text size, some text 'overflows' which means that words or sentences may cut off and unreadable
+- tabbing on some pages may not be in the correct order
+- when tabbing focus may be lost.
 
 ### Feedback and contact information
 
@@ -33,50 +38,42 @@ The HM Land Registry Design System team will review your request and get back to
 
 The Equality and Human Rights Commission (EHRC) is responsible for enforcing the Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018 (the 'accessibility regulations'). If you're not happy with how we respond to your complaint, [contact the Equality Advisory and Support Service (EASS)](https://www.equalityadvisoryservice.com/).
 
-HM Land Registry is committed to making its websites accessible, in accordance with the Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018.
+## Technical information about this website's accessibility
+
+HM Land Registry is committed to making its website accessible, in accordance with the Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018.
 
 ### Compliance status
 
-The Design System website at [https://hmlr-design-system.herokuapp.com/](/) is fully compliant with the Web Content Accessibility Guidelines (WCAG) version 2.1 AA standard.
+The website has been tested against the Web Content Accessibility Guidelines (WCAG) 2.2 AA standard.
 
-### How the GOV.UK website has been tested for accessibility
+This website is partially compliant with the [Web Content Accessibility Guidelines version 2.2](https://www.w3.org/TR/WCAG22/) AA standard, due to the non-compliances and exemptions listed below.
 
-The GOV.UK Design System website was last tested on 7 October 2019. The test was carried out by the [Digital Accessibility Centre (DAC)](https://digitalaccessibilitycentre.org/).
+## Non-accessible content
 
-DAC tested a sample of pages to cover the different content types in the GOV.UK Design System website. They were:
+The content listed below is non-accessible for the following reasons.
 
-- [the homepage](https://design-system.service.gov.uk/)
-- [a short content page](https://design-system.service.gov.uk/community/design-system-working-group/)
-- [a long content page](https://design-system.service.gov.uk/styles/layout/)
-- [an overview page](https://design-system.service.gov.uk/community/)
-- [a styles page](https://design-system.service.gov.uk/styles/typography/)
-- [a component page](https://design-system.service.gov.uk/components/radios/)
-- [a pattern page](https://design-system.service.gov.uk/patterns/question-pages/)
+### Non-compliance with the accessibility regulations
 
-They also tested the global search functionality that appears in the header of every page in the Design System.
+When browser text size is adjusted to 200% or 'very large' text 'overflows' which means that some words or sentences may be cut off and unreadable.
 
-### How the GOV.UK Design System team makes this website accessible
+<b>This fails WCAG 2.2 Success criterion 1.4.10 (Reflow).</b>
 
-The GOV.UK Design System team works to make sure the Design System and Frontend websites, and the codebase they use, are accessible.
+Some of the tabbing on the components pages is in the incorrect order.
 
-Where possible, the team aims to research components and patterns with a representative range of users, including those with disabilities.
+<b>This fails WCAG 2.2 Success criterion 2.4.3 (Focus order).
 
-We also test components to make sure they work with a broad range of browsers, devices and assistive technologies — including screen magnifiers, screen readers and speech recognition tools.
+When tabbing, the focus is also hidden on some pages.
 
-When we publish new content, we’ll continue to make sure that it meets accessibility standards.
+<b>This fails WCAG 2.2 Success criterion 2.4.12 (Focus not obscured (enhanced)).
 
-### Preparation of this accessibility statement
+## What we're doing to improve accessibility
 
-This statement was prepared on 23 October 2019. It was last reviewed on 2 August 2023.
+We plan to investigate and resolve the non-accessible content by December 2024.
 
-## Using the Design System and Frontend in your service
+## Preparation of this accessibility statement
 
-While the HM Land Registry Design System team takes steps to ensure the Design System is as accessible as possible by default, you still need to carry out contextual research.
+This statement was prepared on 2 August 2023. It was last reviewed on 3 September 2024.
 
-Using Frontend does not mean your service automatically meets level AA of WCAG 2.1. You'll still need to make sure your service as a whole meets accessibility requirements.
+This website was last tested on November 2023 against the WCAG 2.2 AA standard.
 
-You must research styles, components and patterns as part of your service to ensure that they are accessible in context.
-
-Find out what you need to do to [make your service accessible](https://www.gov.uk/service-manual/helping-people-to-use-your-service/making-your-service-accessible-an-introduction) in the GOV.UK Service Manual.
-
-If you have any questions or need help, [contact the HM Land Registry Design System team](/get-in-touch/).
+The test was carried out by HM Land Registry. All the pages were tested using manual and automated testing tools by our website team.
