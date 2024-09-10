@@ -72,7 +72,7 @@
     "nunjucks": "^3.2.4",
     "outdent": "^0.8.0",
     "puppeteer": "^18.2.1",
-    "rollup": "0.68.2",
+    "rollup": "0.59.4",
     "rollup-plugin-commonjs": "^9.3.4",
     "rollup-plugin-node-resolve": "^4.2.4",
     "sitemap": "^7.1.2",
@@ -88,9 +88,6 @@
     "npm": "^10.1.0"
   },
   "browserslist": [
-    "last 2 versions",
-    "ie 8",
-    "ie 9",
-    "iOS 9"
+    "last 2 versions"
   ]
 }
