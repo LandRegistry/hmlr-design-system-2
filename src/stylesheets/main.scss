@@ -1,7 +1,8 @@
-$govuk-new-link-styles: true;
+$govuk-suppressed-warnings: "ie8";
 
+$govuk-new-link-styles: true;
 $govuk-brand-colour: #789904;
-$govuk-font-family: arial, sans-serif;
+$govuk-font-family: -apple-system, "BlinkMacSystemFont", "Segoe UI", "Roboto", "Helvetica", arial, sans-serif;
 
 @import "govuk-frontend/govuk/all";
 @import "@hmlr/frontend/hmlr/all";
